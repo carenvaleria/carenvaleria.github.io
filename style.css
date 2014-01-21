@@ -1,0 +1,46 @@
+body {
+	font-family: Helvetica;
+	color: #C9D6DF;
+	padding: 10px;
+}
+
+.links {
+	border: 10px 
+}
+
+p {
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 22px;
+	
+}
+
+h1{
+	text-align: center;
+	color: #BF88E5;
+}
+
+h3{
+	text-align: left;
+	color: #BF88E5;
+}
+
+div{
+	text-align: left;
+	font-family: Helvetica;
+	color: black;
+}
+
+.contact{
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: black;
+}
+
+.oparagraph{
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: black;
+}
