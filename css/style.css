@@ -4,6 +4,10 @@ body {
 	padding: 10px;
 }
 
+.links {
+	border: 10px 
+}
+
 p {
 	text-align: left;
 	font-family: Helvetica;
@@ -25,13 +29,6 @@ div{
 	text-align: left;
 	font-family: Helvetica;
 	color: black;
-}
-
-.links {
-	border: 10px 
-	color: #67E4F0;
-
-
 }
 
 .contact{

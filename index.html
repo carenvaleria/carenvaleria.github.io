@@ -1,33 +1,14 @@
-<!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="style.css" type="text/css" />
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-<head>
-	<title>Caren Garcia</title>
-</head>
-
-<body>
-<!---This is where the good stuff goes--> 
-<h1>Caren Garcia</h1>
-
-<div class = "links">
-
-	<li><a href ="about.html">About Me</a></li>
-	<li><a href ="contact.html">Contact</a></li>
-	<li><a href ="blogpost.html">Blog</a></li>
-
-</div>	
-
-<div>
-<h2>Hello World! Hola a todo el mundo! Hallo Welt!</h2>
- 	<p>Greetings! This is what I'll be writing about my experience at Maker Square's Web Development course! Hope you enjoy!</p>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.excerpt }}</p></li>
+    {% endfor %}
+  </ul>
 </div>
 
-<div>
-<h2>From the <a href="blogpost.html">Blog</a></h2>
-<p>Sunday, January 19th, 2014</p>
-<p>These past couple of days have been marvelous! I got the chance to read and further solidify my knowledge of HTML and CSS! I'm finding myself get ever so excited about all the posibilities that can be created on this wonderful platform that is the internet! Not to mention I magically lost 4lbs in one week! Well, I guess excercising and eating normal human portions of food helped, yet never would have guessed it would be so effective! Anywho, I'm currently seeing the magic that is coding something on Sublime Text 2 and posting it on Chrome, it just makes me so happy to see things change according to my bidding. If only my dog would do the same. I jest, I have no dog. Well this will do it for today, looking forward to what tomorrow has in store for me! </p>
-</div>
-
-</body>
-</html>
