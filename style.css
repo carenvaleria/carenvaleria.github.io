@@ -27,18 +27,21 @@ div{
 	color: black;
 }
 
-.links {
-	border: 10px 
-	color: #67E4F0;
-
-
+ul {
+	border: 10px;
+	padding: 6px 12px 6px 12px;
+	color: black;
 }
 
 .contact{
 	text-align: left;
 	font-family: Helvetica;
 	font-size: 22px;
-	color: black;
+}
+.about{
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 22px;
 }
 
 .oparagraph{
