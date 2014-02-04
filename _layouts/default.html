@@ -14,14 +14,14 @@
 
     </head>
     <body>
-
+        
         <div class="site">
-
+          <h1 class="box">I'm a box</h1>
          {% include nav.html %} 
 
           
           {{ content }}
-
+          
           
           <div class="footer">
             <div class="contact">
@@ -39,6 +39,21 @@
             </div>
           </div>
         </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script src="/js/fitText.js"></script>
+
+<script>
+$(".action").on('click', function(){
+  $(#box).addClass("blue-border");
+});
+  
+</script>
+
+
 
     </body>
 </html>
