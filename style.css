@@ -11,10 +11,6 @@ h1 {
         font-size: 48px;
 }
 
-h1, h2, h3, {
-        color: #648996;
-}
-
 /* Links */
 
 a, a:active, a:visited {
@@ -26,7 +22,6 @@ a:focus, a:hover {
         color: #DF3035;
         text-decoration: none;
 }
-
 
 /* Nav */
 .nav {
@@ -47,30 +42,7 @@ a:focus, a:hover {
         background: #DF3035;
 }
 
-
-/* Blog Post on Homepage */
-
-.blog {
-        margin-bottom: 40px;
-        background: #ddd;
-        padding: 10px;
-}
-
-.post {
-        box-shadow: 1px 1px 8px #999;
-        background: #fff;
-        padding: 10px 20px;
-        margin-bottom: 10px;
-}
-
-.post h2 {
-        margin-bottom: 0;
-        padding-bottom: 0;
-}
-
 /* About Page */
-
-
 
 .image {
         text-align: center;
@@ -84,6 +56,3 @@ a:focus, a:hover {
 
 /* Contact Page */
 
-strong {
-        text-transform: uppercase;
-}

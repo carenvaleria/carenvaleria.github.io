@@ -1,16 +1,42 @@
----
-layout: default
-title: Caren's Website
----
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Caren V. Garcia</title>
+        <meta name="viewport" content="width=device-width">
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div id="home">
-  <h1>Blog Posts</h1>
+   <h1>Caren V. Garcia</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.excerpt }}</p></li>
-    {% endfor %}
-  </ul>
-  
+  <div class="nav">
+      <a href = "homepage.html">Home</a></li>
+      <a href = "about.html">About</a></li>
+      <a href ="blogpost.html">Blog</a></li>
+  </div>  
+       
+<!--footer-->
+<p>Caren V. Garcia</p>
+<p>Aspiring Web Developer</p>
+<p><a href="mailto:carenvaleria90@gmail.com">carenvaleria90@gmail.com</a></p>
+<p><a href="https://github.com/carenvaleria">github.com/carenvaleria</a></p>
+<p><a href="https://twitter.com/carenvaleria">twitter.com/carenvaleria</a></p>
 </div>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="/js/fitText.js"></script>
+
+<script>
+$(".action").on('click', function(){
+  $(#box).addClass("blue-border");
+});
+  
+</script>
+</body>
+</html>
