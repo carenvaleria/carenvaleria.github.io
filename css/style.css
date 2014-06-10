@@ -9,6 +9,7 @@ body {
 }
 img {
 	max-width: 100%;
+	max-height: 20%;
 }
 a:link {
 	color: #f68f67;
@@ -77,6 +78,7 @@ a:visited {
 	position: relative;
 	padding:140px 0;
 }
+
 
 
 
