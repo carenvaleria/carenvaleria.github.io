@@ -1,5 +1,5 @@
-# carenvaleria.github.io
+# Personal Site
 
-##Hello, this is my portfolio site! 
+This is my static site, contains some basic information about who I am and how to contact me. 
 
-##Utilizes HTML, CSS and Javascript with Bootstrap
+Utilizes HTML, CSS and Javascript and Bootstrap
