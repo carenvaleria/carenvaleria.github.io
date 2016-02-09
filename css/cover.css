@@ -27,22 +27,26 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background: url(../img/jump.jpg);
+  background: url(../img/bike.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-#portfolio {
-  background: #009688;
+h1 {
+  margin-top: 10px;
 }
 
-#contact {
-  background: #2962FF;
+#dark-bg {
+    word-wrap: break-word;
+    background: black;
+    opacity: .75;
+    padding: 10%;
+    padding-top: 20%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
