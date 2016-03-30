@@ -1,93 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="./img/favicon.ico">
-
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico">
     <title>Caren V. Garcia | Portfolio</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <!--jQuery-->
-    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="inner cover" id="dark-bg">
-            <h1 class="cover-heading">Caren V. Garcia</h1>
-            <h3>Developer | Polyglot | Optimist</h3>
-            <p class="lead">An ambitious individual with an entrepreneurial spirit, I enjoy building web apps and sites using a variety of stacks and frameworks.</p>
-            <p class="lead">
-              <a href="https://docs.google.com/document/d/1dGiQV6yDrbYtHk7kWO9BDChPIYa7XTJZO8XiLz1cn4g/pub" class="btn btn-lg btn-default">Download Resume</a>
-            </p>
-
-            <ul class="list-inline">
-                <li>
-                  <a href="mailto:carenvaleria90@gmail.com"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/carenvaleria"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/carenvaleria"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/carenvaleria"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/carenvaleria"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                </li>
-            </ul>
-          </div>
-
-          <br>
-
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Built with  <a href="http://getbootstrap.com">Bootstrap</a> &copy; 2016</p>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">Developer | Polyglot | Optimist</span>
+                </span>
             </div>
-          </div>
-
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
         </div>
 
-      </div>
+        <main class="mdl-layout__content">
+          <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp" id="my-card">
+              <div class="mdl-card__media mdl-cell mdl-cell--12-col-tablet">
+                  <img class="article-image" src=" images/caren.jpg" border="0" alt="">
+              </div>
+              <div class="mdl-cell mdl-cell--8-col">
+                  <h2 class="mdl-card__title-text">Caren Valeria Garcia</h2>
+                  <div class="mdl-card__supporting-text padding-top">
+                  </div>
+                  <div class="mdl-card__supporting-text no-left-padding">
+                      <p>Bellow you'll find projects that I've worked on. Of course, more will be added as they are completed. I'm always learning and enjoy working with different frameworks, languages and libraries.</p>
+                  </div>
+              </div>
+          </div>
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work07.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Blog</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Posts mostly about tech. As I venture through this journey called life, I hope to update it with interesting information and insights.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="http://carenvaleria.blogspot.com/">Read more</a>
+                    </div>
+                </div>
 
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work08.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Prepify</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Prepify is an Angular based app that helps students receive free SAT prep. I assisted in the Front End implementing Google's Material Design Lite.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://prepify.me/#/">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/sinch.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Sinch</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                         As a Developer Evangelist, I helped write and update tutorials for the Sinch SDK. Helped other developers implement the SDK for Android and Javascript.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/sinch/android-video-calling">Peruse Here</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Made with &hearts; in Austin, Texas.</div>
+                </div>
+            </footer>
+        </main>
     </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+</body>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="assets/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/ie10-viewport-bug-workaround.js"></script>
-  </body>
 </html>
