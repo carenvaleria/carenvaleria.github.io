@@ -1,0 +1,96 @@
+
+* {
+  font-family: 'Droid Serif', serif;
+}
+
+nav .nav-wrapper{
+  background-color: #00a9ff;
+}
+
+img{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+a{
+  color: #00a9ff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.about{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.projects{
+  text-align: center;
+}
+
+.row-about{
+  background-color: white;
+}
+
+.cd-timeline-img{position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -8px;
+    background-color: #00a9ff;
+  }
+
+.intro-bio{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.icons{
+  display: inline-block;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+/* h2 resize breakpoint*/
+@media (min-width: 360px) {
+  h2 {
+    font-size: 1.0em;
+  }
+  .icons{
+    display: inline-block;
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+
+}
+
+#about{
+  text-align: center;
+}
+
+#contact{
+  display: inline-block;
+  height: 75px;
+  width: 100%;
+}
+
+#index-banner{
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) url('http://i.imgur.com/79wsf1M.jpg');
+  background-position: center;
+  height: 100%;
+  color: white;
+}
