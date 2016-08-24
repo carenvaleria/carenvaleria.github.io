@@ -89,7 +89,7 @@ a{
 #index-banner{
   display: table;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) url('http://i.imgur.com/79wsf1M.jpg');
+  background: url('http://i.imgur.com/79wsf1M.jpg');
   background-position: center;
   height: 100%;
   color: white;
