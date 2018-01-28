@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Developer/Polyglot/Optimist
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+As a lifelong student, I enjoy learning a variety of topics and acquiring new skills. As an organizer with Women Who Code, I aim to help boost diversity in tech.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm particularly fond of Front-End Web Development and making an effort to familiarize myself with JS frameworks, but happily proficient with good old HTML/CSS/JS.
 
+The penchant to learn languages, both formal and natural ones, is one of the greatest joys in my life. I was fortunate to have been raised in the border city of El Paso, TX where I grew up speaking both English and Spanish. My academic pursuits led me to study in Germany for a year, where to this day native German speakers commend me for my fluency in Deutsch.
 
-[jekyll-organization]: https://github.com/jekyll
+¡Espero que logremos trabajar juntos! Freue mich auf jede Nachricht!
+
+Feel free to peruse my Linkedin and connect:
+[Linkedin][https://www.linkedin.com/in/carenvaleria/]
