@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello"
-date:   2018-01-27 22:18:45 -0500
+title:  "Hello!"
+date:   2018-01-27 22:18:45
 ---
 My, it's been ages since I last updated this site! I'm really excited to start sharing my thoughts on my site again! I've been dreadfully busy at work, but now I'd like to get back into the swing of things by blogging and sharing what I've learned with you, dear reader.
 
